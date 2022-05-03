@@ -3,24 +3,24 @@
 
 <head>
     <meta charset="utf-8">
-    <title>COVID-19 Cases in the United States in 2020</title>
+    <title>COVID-19 Rates in the United States in 2020</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css" rel="stylesheet">
-    <link rel="stylesheet" href="geog458-covidmap/css/stylemap1.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="css/stylemap1.css" rel="stylesheet" >
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
-
 </head>
 
 <body>
     <div id="map"></div>
-    <div id="legend"></div>
-    <div id="title">
-        COVID-19 Cases in the United States in 2020
+    <div class='map-overlay' id='legend'></div>
+    <div class='map-overlay' id='features'>
+        <h2>COVID-19 Case Rates in the United States in 2020</h2>
+    <div id='text-description'>
+        <p>Hover over a county.</p>
     </div>
-    <script src="geog458-covidmap/js/main1.js"></script>
 
+    <script src='js/main1.js'></script>
 
 </body>
-
 </html>
