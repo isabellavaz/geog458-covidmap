@@ -11,7 +11,7 @@ let map = new mapboxgl.Map({
 
 async function geojsonFetch() {
     // other operations
-    let response = await fetch('../assets/covidrates.json');
+    let response = await fetch('assets/covidrates.json');
     let covidrates = await response.json();
 
 
