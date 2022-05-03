@@ -21,7 +21,7 @@ map.on('load', function loadingdata() { //simplifying the function statement: ar
     // add a source of the data and then add the layer out of the source
     map.addSource('covidcount', {
         type: 'geojson',
-        data: '../assets/covidcount.json',
+        data: 'assets/covidcount.json',
     });
 
     map.addLayer({
