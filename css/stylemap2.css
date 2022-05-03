@@ -10,7 +10,6 @@ body {
     width: 100%;
 }
 
-
 #title {
     position: absolute;
     top: 0;
@@ -19,9 +18,10 @@ body {
     margin-left: 20px;
     font-family: 'Open Sans', sans-serif;
     font-size: 25pt;
-    color: whitesmoke;
+    color: white
 }
 
+/* the layout of the legend panel */
 #legend {
     position: absolute;
     bottom: 0;
@@ -64,7 +64,4 @@ a {
     color: black
 }
 
-.mapboxgl-canvas-container.mapboxgl-interactive,
-.mapboxgl-ctrl-group button.mapboxgl-ctrl-compass {
-    cursor: unset;
-}
+
