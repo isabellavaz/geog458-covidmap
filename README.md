@@ -14,9 +14,12 @@ Data was compiled into case count and case rate geojson files to be later proces
 ![map of Case Rates in 2020](img/map1_caserate.jpg)
 In this map, we can see highly dense counties in a deeper hue of orange, where the highest rates of COVID-19 were in 2020. The lighter shades depict a lower rate. Hovering over the county will display the actual rate per 1,000 people in their repsecitve counties. 
 
+[link to this map](https://isabellavaz.github.io/geog458-covidmap/map1.html)
+
 ----------
 
 ## Map 2
 ### Proportional map depicting the count of COVID-19 cases per county
 ![map of Case Count in 2020](img/map2_casecount.jpg)
 In this map, we can see highly dense counties in a deeper hue of red with a larger proportional symbol, where the highest counts of COVID-19 cases were in 2020. The lighter shades with smaller circles depict a lower count of cases. Clicking on the county will display the actual case count in that county.
+[link to this map](https://isabellavaz.github.io/geog458-covidmap/map2.html)
